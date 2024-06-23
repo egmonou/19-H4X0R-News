@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct DetialView: View {
+    var url: String?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        WebView(urlString: url)
     }
 }
 
-#Preview {
-    DetialView()
-}
+
+
